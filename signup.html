@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="container-fluid">
+ 	<h3 style="float: center; margin-left: 45% ">
+ 		Sign Up
+ 	</h3>
+ 	<br>
+ 	<br>
+ 	<br>
+  <div  style="margin-left: 30%; border: solid; width: 45% " class="row" >
+     	<form action="signupAction.php" method="POST">
+        <div style="padding-top: 20px; padding-left: 50px; padding-bottom: 10%; " class="col-lg-4 col-md-4 col-sm-6">
+     		<!-- <label>Please Select type</label><br><br> -->
+     		<label>Name</label><br><br>
+     		<label>Contact</label><br><br>
+     		<label>Email</label><br><br>
+     		<label>Password</label>
+     	</div>
+     	<div style="padding-top: 20px; padding-left: 50px;padding-bottom: 10%"  class="col-lg-8 col-md-8 col-sm-6">
+     		<!-- <input  type="text" name="type"><br><br> -->
+     		<input type="text" name="name"><br><br>
+     		<input type="number" name="contact"><br><br>
+     		<input type="email" name="email"><br><br>
+     		<input type="password" name="password"><br><br>
+     		<button style="margin-left: 25%" type="submit"  name="signup" class="btn btn-primary">Sign up</button>
+     	</div>
+        </form>
+     	<footer><p>If you have already account <a href="">click here</a></p></footer>
+  </div>
+ 	
+ </div>
+
+
+</body>
+</html>
